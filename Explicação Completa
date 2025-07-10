@@ -1,0 +1,148 @@
+inclui a biblioteca padrão de entrada e saída para permitir o uso de printf
+
+Diretivas que criam apelidos para valores constantes
+
+
+
+
+
+
+
+essa função preenche todo o tabuleiro com agua, usando dois For aninhados
+"i" percorre linhas
+"j" percorre colunas
+"tabuleiro[i][j] define a célula como vazia
+
+
+
+
+
+Essa função percorre o tabuleiro e imprime um símbolo para cada célula
+
+
+
+"~" para água (0)
+N  para navio (3)
+* oara habilidade (5)
+
+
+permite visualizar o estado do jogo no terminal
+
+
+
+
+
+
+
+essa função posiciona quadro navios de formas diferentes
+Coloca um navio na linha 1, coluna 2 a 4
+
+
+
+
+Coloca um navio na coluna 7, linhas 5 a 7
+
+
+
+
+Coloca um navio na diagonal principal (3,3), (4,4) e (5,5)
+
+
+
+
+Coloca um navio descendo na diagonal secundária (5,6) (6,5) (7,4)
+
+
+
+
+
+Essa condição preenche uma forma de cone V apontando para baixo centrada 
+
+
+
+
+
+
+
+
+
+
+
+Marca a linha e coluna centrais da matriz, formando uma cruz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+essa função coloca a matriz da habilidde no tabuleiro
+posição central fornecida (linhaCentro, colunaCentro)
+limites do tabuleiro
+so maca com HABILIDADE se a célula estava com AGUA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Declara as variaveis principais
+tabuleiro 10x10
+cone,cruz e octaedro 5x5 cada
+
+
+
+inicializa tudo
+
+
+
+
+
+
+
+
+Aplica as habilidades
+
+
+
+
+imprime o resultado final das posições
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
